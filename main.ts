@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
 })
-radio.setGroup(1)
+radio.setGroup(10)
 basic.forever(function () {
 	
 })
